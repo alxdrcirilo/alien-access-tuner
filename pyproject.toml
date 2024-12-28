@@ -1,0 +1,19 @@
+[project]
+name = "alien-access-tuner"
+version = "0.1.0"
+description = "A clone of the access tuner mini-game from the Alien: Isolation video game."
+authors = [
+    { name = "Alexandre Cirilo", email = "38657258+alxdrcirilo@users.noreply.github.com" },
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.2.1",
+    "pygame>=2.6.1",
+]
+
+[dependency-groups]
+dev = [
+    "pyclean>=3.0.0",
+]
